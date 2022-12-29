@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
 
 #hero {
   background-image: url(/assets/Groupe\ 1759.png);
@@ -28,4 +34,16 @@
   .hover-underline-animation:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
+  }
+
+  .why-us {
+    background: url(/assets/style.png);
+    background-repeat: no-repeat;
+    background-size: 33%;
+    background-position: left center;
+    
+  }
+
+  .trsmBtn {
+    transform: translateX(10px);
   }
