@@ -54,3 +54,16 @@
   .trsmBtn {
     transform: translateX(10px);
   }
+
+  #input-contact::placeholder {
+    color: gray;
+  }
+
+  .sec::before {
+    content: "";
+    height: 10px;
+    display: block;
+  }
+  li {
+    margin-top: 8px;
+  }
