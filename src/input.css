@@ -40,7 +40,14 @@
     background: url(/assets/style.png);
     background-repeat: no-repeat;
     background-size: 33%;
-    background-position: left center;
+    background-position: left bottom;
+    
+  }
+  .why-us-2 {
+    background: url(/assets/style\ 2.png);
+    background-repeat: no-repeat;
+    background-size: 33%;
+    background-position: right bottom;
     
   }
 
